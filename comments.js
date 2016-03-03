@@ -19,10 +19,10 @@ var disqus = {
 		disqus.show();
 	},
   	hide : function(){
-      	$('#disqus_thread').hide(); 
+      		$('#disqus_thread').hide(); 
 	},
   	show : function(){
-      	$('#disqus_thread').show(); 
+      		$('#disqus_thread').show(); 
 		duoshuo.hide();
 	}
   }
@@ -40,10 +40,10 @@ var duoshuo = {
 		duoshuo.show();
 	},
   	hide : function(){
-        $('#ds-thread').hide(); 
+        	$('#ds-thread').hide(); 
 	},
   	show : function(){
-        $('#ds-thread').show(); 
+        	$('#ds-thread').show(); 
 		disqus.hide();
 	}
 }
@@ -53,6 +53,6 @@ var articleHeight = $('header.main-header').height() + $('header.post-header').h
 $(window).scroll(function(){
 	if($(window).scrollTop() >= articleHeight-$(window).height()){
 		disqus.load();
-	    $(window).unbind('scroll');
+	    	$(window).unbind('scroll');
     }
 })
