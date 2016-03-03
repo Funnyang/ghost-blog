@@ -15,7 +15,7 @@ var disqus = {
 			(d.head || d.body).appendChild(s);
 		})();
 		
-      	$('#load-disqus').attr("onclick","disqus.show()");
+      		$('#load-disqus').attr("onclick","disqus.show()");
 		disqus.show();
 	},
   	hide : function(){
